@@ -1,0 +1,95 @@
+/* Custom styles — Bootstrap handles most layout */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+main { flex: 1; }
+a img:hover { opacity: 0.85; }
+
+.sidebar-sticky{ 
+  top: 5rem;
+}
+
+h1{
+  font-family: "Playfair Display", serif;
+  font-size: 3.815rem;
+  font-weight: 700;
+}
+
+h2{
+  font-family: "Playfair Display", serif;
+  font-size: 3.052rem; 
+  font-weight: 700;
+}
+
+h3{
+  font-family: "Playfair Display", serif; 
+  font-size: 2.441rem; 
+  font-weight: 700;
+  scroll-margin-top: 100px;
+}
+
+h4{
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 1.953rem;
+  font-weight: 400;
+}
+
+h5{
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 1.563rem;
+  font-weight: 400;
+}
+
+h6{
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 1.25rem; 
+  font-weight: 400;
+}
+
+p{
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 1rem;
+  text-indent: 30px;
+}
+
+.sidebar{ 
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.nav-item{ 
+  font-family: "Source Sans 3", sans-serif !important;
+}
+
+.navbar-brand{ 
+    font-family: "Source Sans 3", sans-serif !important;
+
+}
+
+a{
+  color:#2C97A8;
+}
+
+a:hover{
+  color:#3BBCD1;
+}
+
+
+
+.playfair-display-specs {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.source-sans-3-specs {
+  font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
