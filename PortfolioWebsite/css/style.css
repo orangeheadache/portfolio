@@ -1,0 +1,143 @@
+/* Custom styles — Bootstrap handles most layout */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+main { flex: 1; }
+a img:hover { opacity: 0.85; }
+
+.sidebar-sticky{ 
+  top: 5rem;
+}
+
+h1{
+  font-family: "Quicksand", sans-serif;
+  font-size: 3.815rem;
+  font-weight: 700;
+}
+
+h2{
+  font-family: "Quicksand", sans-serif;
+  font-size: 3.052rem; 
+  font-weight: 700;
+}
+
+h3{
+  font-family: "Quicksand", sans-serif;
+  font-size: 2.441rem; 
+  font-weight: 700;
+  scroll-margin-top: 100px;
+}
+
+h4{
+ font-family: "Quicksand", sans-serif;
+  font-size: 1.953rem;
+  font-weight: 400;
+}
+
+h5{
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.563rem;
+  font-weight: 400;
+}
+
+h6{
+  font-family: "Oxygen", sans-serif;
+  font-size: 1.25rem; 
+  font-weight: 400;
+}
+
+p{
+  font-family: "Oxygen", sans-serif;
+  font-size: 1rem;
+}
+
+.sidebar{ 
+  font-family: "Oxygen", sans-serif;
+  font-size: 1rem;
+  text-decoration: none;
+  color: black;
+}
+
+.sidebar:hover{
+  color: lightgray;
+}
+
+.nav-item{ 
+   font-family: "Quicksand", sans-serif !important;
+}
+
+.navbar{ 
+    background-color: #071500 !important;
+}
+
+a{
+  color:#2C97A8;
+}
+
+a:hover{
+  color:#3BBCD1;
+}
+
+.quicksand-specs {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.oxygen-light {
+  font-family: "Oxygen", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.oxygen-regular {
+  font-family: "Oxygen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.oxygen-bold {
+  font-family: "Oxygen", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* CSS for overview table */
+
+.ds-overview-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid #999999;
+  border-radius: 10px;
+  font-variant-numeric: tabular-nums;
+}
+.ds-overview-table th,
+.ds-overview-table td { padding: 7px ; width: 25%; vertical-align: top; }
+.ds-overview-table thead th {
+  background: transparent;
+  color: black;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.563rem;
+  font-weight: 600;
+}
+.ds-overview-table tbody td {
+  background: transparent;
+  font-family: "Quicksand", sans-serif;
+}
+.ds-overview-table th + th, .ds-overview-table td + td { border-left: 1px solid #999999; }
+.table-scroll { overflow-x: auto; }
+
+/* CSS for tldr boxes */
+
+.ds-tldr { 
+  display: flex; 
+  flex-direction: 
+  column; height: 100%;
+  background: lightgrey;
+  border-radius: 10px;
+  padding:10px;
+}
