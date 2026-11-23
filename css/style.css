@@ -12,50 +12,49 @@ a img:hover { opacity: 0.85; }
 }
 
 h1{
-  font-family: "Playfair Display", serif;
+  font-family: "Quicksand", sans-serif;
   font-size: 3.815rem;
   font-weight: 700;
 }
 
 h2{
-  font-family: "Playfair Display", serif;
+  font-family: "Quicksand", sans-serif;
   font-size: 3.052rem; 
   font-weight: 700;
 }
 
 h3{
-  font-family: "Playfair Display", serif; 
+  font-family: "Quicksand", sans-serif;
   font-size: 2.441rem; 
   font-weight: 700;
   scroll-margin-top: 100px;
 }
 
 h4{
-  font-family: "Source Sans 3", sans-serif;
+ font-family: "Quicksand", sans-serif;
   font-size: 1.953rem;
   font-weight: 400;
 }
 
 h5{
-  font-family: "Source Sans 3", sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-size: 1.563rem;
   font-weight: 400;
 }
 
 h6{
-  font-family: "Source Sans 3", sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-size: 1.25rem; 
   font-weight: 400;
 }
 
 p{
-  font-family: "Source Sans 3", sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-size: 1rem;
-  text-indent: 30px;
 }
 
 .sidebar{ 
-  font-family: "Source Sans 3", sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-size: 1rem;
   text-decoration: none;
   color: black;
@@ -66,7 +65,7 @@ p{
 }
 
 .nav-item{ 
-  font-family: "Source Sans 3", sans-serif !important;
+   font-family: "Quicksand", sans-serif !important;
 }
 
 .navbar{ 
@@ -81,19 +80,64 @@ a:hover{
   color:#3BBCD1;
 }
 
-
-
-.playfair-display-specs {
-  font-family: "Playfair Display", serif;
+.quicksand-specs {
+  font-family: "Quicksand", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
 
+.oxygen-light {
+  font-family: "Oxygen", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
 
-.source-sans-3-specs {
-  font-family: "Source Sans 3", sans-serif;
-  font-optical-sizing: auto;
+.oxygen-regular {
+  font-family: "Oxygen", sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+
+.oxygen-bold {
+  font-family: "Oxygen", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* CSS for overview table */
+
+.ds-overview-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid #999999;
+  border-radius: 10px;
+  font-variant-numeric: tabular-nums;
+}
+.ds-overview-table th,
+.ds-overview-table td { padding: 7px ; width: 25%; vertical-align: top; }
+.ds-overview-table thead th {
+  background: transparent;
+  color: black;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.563rem;
+  font-weight: 600;
+}
+.ds-overview-table tbody td {
+  background: transparent;
+  font-family: "Quicksand", sans-serif;
+}
+.ds-overview-table th + th, .ds-overview-table td + td { border-left: 1px solid #999999; }
+.table-scroll { overflow-x: auto; }
+
+/* CSS for tldr boxes */
+
+.ds-tldr { 
+  display: flex; 
+  flex-direction: 
+  column; height: 100%;
+  background: lightgrey;
+  border-radius: 10px;
+  padding:10px;
 }
